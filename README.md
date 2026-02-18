@@ -1,7 +1,7 @@
 ## Definiciones propias:
 
 # CLASE:
-Es la porción de código que funciona como un molde que contiene los atributos y los métodos que se usarán para los objetos que se creen en el proyecto. En este proyecto se usó una clase llamada "Auto" y es una clase publica: "public class Auto"
+Es la estructura que funciona como un molde que define cómo´serán los objetos.
 
 # OBJETO:
 Es la porción de código a la cual se le asignan los atributos y los métodos creados dentro de la clase.
@@ -21,4 +21,4 @@ Para compilar des la terminal: mvn clean compile
 Para ejecutar desde la terminal: mvn exec:java -Dexec.mainClass="com.actividad.Main"
 
 # REFLEXIÓN:
-En esta práctica no usamos private, ya que esto nos permite usar los atributos y los metodos con varios objetos y no con uno solo. A futuro se puede usar private si solamente necesitamos aplicar atributos y metodos a una sola clase, es decir cuando es algo muy específico y que no requiere repetirse dentro del proyecto.
+En esta práctica no usamos private, porque el objetivo era acceder directamente a los atributos desde el método main. Considero que el modificador private lo podemos emepezar a implementar una vez tengamos mas claros otros conceptos de Java.

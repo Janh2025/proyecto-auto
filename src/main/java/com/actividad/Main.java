@@ -14,15 +14,15 @@ public class Main {
         auto2.modelo = "Spark";
 
         auto1.mostrarInformacion();
-        auto1.acelerar();
-        auto1.frenar();
-        auto1.apagar();
+        auto1.acelerar(50);
+        auto1.frenar(3);
+        auto1.apagar(false);
 
         System.out.println();
 
         auto2.mostrarInformacion();
-        auto2.acelerar();
-        auto2.frenar();
-        auto2.apagar();
+        auto2.acelerar(70);
+        auto2.frenar(5);
+        auto2.apagar(false);
     }
 }
