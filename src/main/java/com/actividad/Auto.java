@@ -5,7 +5,6 @@ public class Auto {
     public String modelo;
     public String color;
 
-    public int velocidadActual;
     public boolean encendido;
 
     public void acelerar(int cantidad) {
@@ -19,9 +18,11 @@ public class Auto {
     }
 
     public void apagar(boolean encendido) {
-        if (encendido) {
+        if (!encendido) {
             encendido = false;
             System.out.println("El auto está apagado.");
+        } else {
+            System.out.println("El auto aún está encendido");
         }
     }
 
